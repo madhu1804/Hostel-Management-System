@@ -4,14 +4,14 @@ The Main agenda in this project is to build a fully-flexible Hostel Management S
 These entities along with certain relationships between them form the Hostel Management System. Here, I have first created all the relations using ‘create’ command. After that, Ifeeded the respective values to the relations and finally declare foreign key attributes, which binds together the relations together.
 
 
-The foreign keys which we have included in this project include:
+Foreign keys:
 1. Student Relation derives BHOSTEL_ID from Boys_Hostel’s BHOSTEL_ID 
-2. 2. Mess_Employee derives BHOSTEL_ID from Boys_Hostel’s BHOSTEL_ID 
-3. 3. Room derives BHOSTEL_ID from Boys_Hostel’s BHOSTEL_ID
+2. Mess_Employee derives BHOSTEL_ID from Boys_Hostel’s BHOSTEL_ID 
+3. Room derives BHOSTEL_ID from Boys_Hostel’s BHOSTEL_ID
 4. Student derives ROOM_ID from Room’s ROOM_ID
 5. Fee derives FSID from Student’s STUDENT_ID
 
-NOTE:The above relational schema includes all the possible foreign key relationships. However, we have only chosen 5 among them in our project.
+NOTE:The above relational schema includes all the possible foreign key relationships. However, I chose 5 among them in the project.
 
 Five Foreign Keys additional:
 
